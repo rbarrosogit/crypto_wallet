@@ -1,0 +1,11 @@
+<h1>Seja Bem-Vindo!</h1>
+<ul>
+  <li>
+    <%= link_to "Cadastro de Moedas", coins_path %>
+  </li>
+</ul>
+<p><strong>Data de hoje e hora atual:</strong> <%= date_and_time_br(Time.now) %></p>
+
+<p>
+  Você está em ambiente de <strong><%= ambiente_rails %></strong>
+</p>
