@@ -1,0 +1,48 @@
+pt-BR:
+  activerecord:
+    models:
+      coin: 
+        one: "Moeda"
+        other: "Moedas" 
+      mining_type:
+        one: "Tipo de Mineração"
+        other: "Tipos de Mineração"
+    attributes:
+      coin:
+        id: "Código"
+        description: "Descrição"
+        acronym: "Sigla"
+        url_image: "URL da imagem"
+        mining_type: "Tipo de Mineração"
+        mining_type_id: "Tipo de Mineração"
+        updated_at: "Atualizado em"
+        created_at: "Criado em"
+      mining_type:
+        id: "Código"
+        description: "Descrição"
+        acronym: "Sigla"
+        updated_at: "Atualizado em"
+        created_at: "Criado em"
+  hello: "Olá Mundo!"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Apagar"
+    new: "Novo"
+    home: "Voltar para home"
+    back: "Voltar"
+  new:
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"
+  editing:
+    coin: "Editando Moeda"
+    mining_type: "Editando Tipo de Mineração"
+  showing:
+    coin: "Mostrando Moeda"
+    mining_type: "Mostrando Tipo de Mineração"
+  current_locale: "Português do Brasil"
+  welcome: "Seja Bem-Vindo!!"
+  messages:
+    welcome: "Este é o CryptoWallet, uma ferramenta para você cadastrar e administrar suas criptomoedas."
+    menu: "Para começar, selecione uma das opções abaixo:"
+    confirm: "Tem certeza?"

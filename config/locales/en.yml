@@ -30,4 +30,34 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    models:
+      coin: 
+        one: "Coin"
+        other: "Coins" 
+      mining_type:
+        one: "Mining Type"
+        other: "Mining Types"
+  hello: "Hello World!"
+  links:
+    edit: "Edit"
+    show: "Show"
+    delete: "Delete"
+    new: "New"
+    home: "Home"
+    back: "Back"
+  new:
+    coin: "New Coin"
+    mining_type: "New Mining Type"
+  editing:
+    coin: "Editing Coin"
+    mining_type: "Editing Mining Type"
+  showing:
+    coin: "Showing Coin"
+    mining_type: "Showing Mining Type"
+  actual_locale: "English (International)"
+  welcome: "Welcome!"
+  messages:
+    welcome: "This is Crypto Wallet. Here you can manage your cryptocoins."
+    menu: "Please, choose one of the options below:"
+    confirm: "Are you sure?"

@@ -7,15 +7,28 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://cdn.jsdelivr.net/npm/notify-js-legacy@0.4.1/notify.min.js"></script>
   </head>
 
   <body>
-    <h1>HEADER</h1>
+    <div class="container-fluid">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <%= link_to image_tag("br_flag.png", size: "50x30"), root_path(locale: 'pt-BR'), class:"nav-link" %>
+        </li>
 
-    
-    <%= yield %>
-    
-    
-    <h1>FOOTER</h1>
+        <li class="nav-item">
+          <%= link_to image_tag("en_flag.png", size: "50x30"), root_path(locale: 'en'), class:"nav-link" %>
+        </li>
+      </ul>
+      <%= yield %>
+      <script>
+        $.notify(
+          "Funcionou!!!", 
+          { position:"left top" }
+        );
+      </script>
+    </div>
   </body>
 </html>
+

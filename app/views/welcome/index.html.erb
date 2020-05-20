@@ -1,15 +1,8 @@
-<h1>Seja Bem-Vindo!</h1>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome') %></h1>
+  <p class="lead"><%= t('messages.welcome') %></p>
+  <hr class="my-4">
+  <p><%= t('messages.menu') %></p>
+  <%= render "menu" %>
+</div>
 
-<%= render "menu" %>
-
-<p><strong>Data de hoje e hora atual:</strong> <%= date_and_time_br(Time.now) %></p>
-
-<p>
-  Você está em ambiente de <strong><%= ambiente_rails %></strong>
-</p>
-
-<p>
-  Eu sou uma variável de instância/sessão: <strong><%= @nome %></strong>
-  <br>
-  Isso é um curso de <strong><%= @nomedocurso %></strong>
-</p>
